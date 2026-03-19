@@ -3,11 +3,17 @@ body{
 }
 
 h1{
+    text-align: center;
     color: purple
+}
 
+#img1{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 p{
-    color: purple
-
+    color: purple;
+    text-align-last: center
 }
