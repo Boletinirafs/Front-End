@@ -1,19 +1,13 @@
-body{
-    background-color: black
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "New Rocker", system-ui;
 }
 
-h1{
-    text-align: center;
-    color: purple
-}
-
-#img1{
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-}
-
-p{
-    color: purple;
-    text-align-last: center
+body header h1{
+    background-color:rgb(116, 6, 6);
+    margin: 0px;
+    border: 0px;
+    font-sizing: 40px
 }
