@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+main{
+    display:flex;
+}
+
+/* HEADER */
+.title{
+    background-color:rgb(250, 200, 80); 
+    text-align: center;
+    width: 100vw;
+}
+
+
+
+
+
+/* BARRA LATERAL */
+.asideSuper{
+    display: flex;
+}
+.asideSuper .lateralBar{
+    display: flex;
+    height: 100vh;
+    width: 200px;
+    background-color: lightyellow;
+    justify-content: center;
+}
+.lateralBar .asideHeader{
+    display: flex;
+    background-color: lightyellow;
+    height: 80px;
+    width: 100vw;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    border: 10px solid rgb(250, 200, 80);
+}
+
+.asideSuper .asideToggle{
+    display: flex;
+    background-color: rgb(187, 149, 60);
+    width: 10px;
+    height: 100vh;
+    align-items: center;
+}
+
+.lateralBar .taxi{
+    width: 100px;
+    border: 5px;
+}
