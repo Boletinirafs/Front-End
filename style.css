@@ -4,9 +4,50 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
+
+
+/* MAIN */
 main{
     display:flex;
 }
+.mainInfo{
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+}
+.mainInfo .main1{
+    display: grid;
+    margin: 30px;
+    padding-bottom: 30px;
+    justify-items: center;
+    
+}
+.main1 p{
+    margin: 50px;
+}
+.main1 h3{
+    padding: 10px;
+    background-color:rgba(104, 108, 108, 0.156) ;
+    width: 50%;
+}
+.mainInfo .slideShow{
+    display: flex;
+    padding: 50px;
+    width: fit-content;
+    justify-content: center;
+    background-color: rgba(104, 108, 108, 0.156)
+}
+
+
+
+
+/* MAIN */
+
+
+
+
+
+
 
 /* HEADER */
 .title{
@@ -14,7 +55,7 @@ main{
     text-align: center;
     width: 100vw;
 }
-
+/* HEADER */
 
 
 
@@ -24,23 +65,36 @@ main{
     display: flex;
 }
 .asideSuper .lateralBar{
-    display: flex;
     height: 100vh;
     width: 200px;
     background-color: lightyellow;
     justify-content: center;
 }
+
+.lateralBar .taxi{
+    width: 100px;
+    border: 5px;
+}
+
 .lateralBar .asideHeader{
     display: flex;
     background-color: lightyellow;
     height: 80px;
-    width: 100vw;
     align-items: center;
     margin: 10px;
     justify-content: center;
     border: 10px solid rgb(250, 200, 80);
 }
-
+.lateralBar .necessaryList{
+    width: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding-bottom: 10px;
+}
 .asideSuper .asideToggle{
     display: flex;
     background-color: rgb(187, 149, 60);
@@ -48,8 +102,4 @@ main{
     height: 100vh;
     align-items: center;
 }
-
-.lateralBar .taxi{
-    width: 100px;
-    border: 5px;
-}
+/* BARRA LATERAL */
