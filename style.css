@@ -1,14 +1,19 @@
+
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
+/* RESET */
 
+/* ---------------------------------------------------------------------------------------------------------- */
 
 /* MAIN */
 main{
     display:flex;
+    background-color: rgb(196, 196, 196);
 }
 .mainInfo{
     width: 100%;
@@ -20,45 +25,47 @@ main{
     margin: 30px;
     padding-bottom: 30px;
     justify-items: center;
-    
 }
 .main1 p{
     margin: 50px;
 }
-.main1 h3{
+.main1 .pictureSwitch{
     padding: 10px;
-    background-color:rgba(104, 108, 108, 0.156) ;
+    background-color:rgb(150, 150, 150);
     width: 50%;
+    border-radius: 15px;
 }
 .mainInfo .slideShow{
     display: flex;
     padding: 50px;
     width: fit-content;
     justify-content: center;
-    background-color: rgba(104, 108, 108, 0.156)
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
 }
-
-
-
-
 /* MAIN */
 
-
-
-
-
-
+/* ---------------------------------------------------------------------------------------------------------- */
 
 /* HEADER */
 .title{
+    display: flex;
     background-color:rgb(250, 200, 80); 
     text-align: center;
-    width: 100vw;
+    width: 100%;
+}
+.title h1{
+    width: 100%;
+    text-align: left;
+}
+.title .login{
+    display: flex;
+    width: 100px;
+    align-items: center;
 }
 /* HEADER */
 
-
-
+/* ---------------------------------------------------------------------------------------------------------- */
 
 /* BARRA LATERAL */
 .asideSuper{
@@ -70,12 +77,10 @@ main{
     background-color: lightyellow;
     justify-content: center;
 }
-
 .lateralBar .taxi{
     width: 100px;
     border: 5px;
 }
-
 .lateralBar .asideHeader{
     display: flex;
     background-color: lightyellow;
@@ -85,6 +90,16 @@ main{
     justify-content: center;
     border: 10px solid rgb(250, 200, 80);
 }
+.lateralBar .augCounter{
+    display: grid;
+    height: auto;
+    justify-items: center;
+}
+.augCounter .augButton{
+    height: auto;
+    width: auto;
+}
+
 .lateralBar .necessaryList{
     width: auto;
     margin-top: 30px;
